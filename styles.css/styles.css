@@ -242,3 +242,38 @@ margin-left: -15px;
   left: 488px;
   max-width: 431px;
 }
+
+/*sobre*/
+/*nosotros*/
+.title-nosotros{
+  position: absolute;
+  top: 132px;
+  left: 177px;
+}
+.line-nosotros{
+  position: absolute;
+  top: 135px;
+  left: 480px;
+}
+.img-fluid {
+  max-width: 98%;
+height: auto;
+position: absolute;
+left: 165px;
+top: 226px;
+}
+.img-fluid-1{
+  max-width: 98%;
+height: auto;
+position: absolute;
+left: 485px;
+top: 226px;
+}
+.nosotros-p{
+  position: absolute;
+  left: 789px;
+  top: 231px;
+}
+.precio{
+  background-color: #fbfbfb;
+}
