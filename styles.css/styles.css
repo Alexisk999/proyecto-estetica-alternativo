@@ -258,16 +258,10 @@ margin-left: -15px;
 .img-fluid {
   max-width: 98%;
 height: auto;
-position: absolute;
-left: 165px;
-top: 226px;
 }
 .img-fluid-1{
   max-width: 98%;
 height: auto;
-position: absolute;
-left: 485px;
-top: 226px;
 }
 .nosotros-p{
   position: absolute;
@@ -277,3 +271,9 @@ top: 226px;
 .precio{
   background-color: #fbfbfb;
 }
+.precioo{
+  background-color: #ff0779;
+  
+}
+
+/* contacto */
