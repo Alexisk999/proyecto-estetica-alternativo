@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--fontawesome-->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <!--styles-->
-    <link rel="stylesheet" href="styles.css/styles.css">
+      <!--styles-->
+    
     <!--Boostrap css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css/styles.css">
+
     <!-- Boostrap JS --> 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
@@ -21,11 +19,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
         <!--Normalize-->
         <link rel="stylesheet" href="/styles.css/normalize.css">
-        
+        <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- CDN Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- CSS Main -->
+    <link rel="stylesheet" href="./css/main.css" />
 </head>
 <body>
-    <!--Header-->
-    <header>
+<header>
     <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #0A1924;">
         <a class="navbar-brand" href="index.html">Spa Glamour</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -52,64 +57,78 @@
                     <a class="nav-link" href="productos.php"  >productos<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                <a class="nav-link" href="contacto.html"  >Contacta con nosotros <span class="sr-only">(current)</span></a>
-                </li>
+                  <a class="nav-link" href="contacto.html"  >Contacta con nosotros <span class="sr-only">(current)</span></a>
+              </li>
             </ul>
         </div>
     </nav>
-    </header>
+</header>
+<br>
 
-    <!--section1-->
-
-    <section class="section-otros ">
-        <div class="container">
-    
-        <div class="title ">
-            <h3 class="clr">Otros servicios</h3>
+    <div class="container">
+        <div class="row">
+            <!-- Card -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="./img/producto.jpg" alt="">
+                    <div class="card-body">
+                    <h4 class="card-title">Acondicionador</h4>
+                    <a name="" id="" class="btn btn-primary" href="#" role="button">Ver mas</a>
+                </div>
+            </div>
         </div>
-        <div class="section-otros-p">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt labore </p>
-            </div>
-        
-            <div class="roow">
-            
-            <div class="card">
-            <div class="card-body">
-                <span class="fa fa-magic mt-2 i" aria-hidden="true"></span> 
-                <h4 class="card-title">Estenciones de cabello</h4>
-                <p class="card-text">Some example text. Some example text.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-            </div>
 
-            </div>
-    
-            <div class="card">
-            <div class="card-body">
-            <span class="fa fa-paint-brush mt-2 i" aria-hidden="true"></span>
-                <h4 class="card-title">Coloracion de cabello</h4>
-                <p class="card-text">Some example text. Some example text.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-            </div>
-            </div>
-            <div class="card">
-            <div class="card-body">
-                <span class="fa fa-tachometer mt-2 i" aria-hidden="true"></span>
-                <h4 class="card-title">Reflejos</h4>
-                <p class="card-text">Some example text. Some example text.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+        <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="./img/producto.jpg" alt="">
+                    <div class="card-body">
+                    <h4 class="card-title">Acondicionador</h4>
+                    <a name="" id="" class="btn btn-primary" href="#" role="button">Ver mas</a>
+                </div>
             </div>
             
-            <img class="section-otros-img" src="/img/s1.jpg" alt="">          
-        </div>
-        
-    </section>
+    </div>
+
+    <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="./img/producto.jpg" alt="">
+                    <div class="card-body">
+                    <h4 class="card-title">Acondicionador</h4>
+                    <a name="" id="" class="btn btn-primary" href="#" role="button">Ver mas</a>
+                </div>
+            </div>
+    </div>
+    
+    <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="./img/producto.jpg" alt="">
+                    <div class="card-body">
+                    <h4 class="card-title">Acondicionador</h4>
+                    <a name="" id="" class="btn btn-primary" href="#" role="button">Ver mas</a>
+                </div>
+            </div>
+    
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Jquery -->
+    <script src="./js/jquery-3.5.0.min.js"></script>
+    <!-- Popper -->
+    <script src="./js/popper.min.js"></script>
+    <!-- JS Bootstrap -->
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>

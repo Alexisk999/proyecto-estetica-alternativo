@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- fonawesome 6 -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" integrity="sha512-Mo79lrQ4UecW8OCcRUZzf0ntfMNgpOFR46Acj2ZtWO8vKhBvD79VCp3VOKSzk6TovLg5evL3Xi3u475Q/jMu4g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -46,6 +49,9 @@
                         <a class="nav-link" href="servicios.html"  >Servicios<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
+                      <a class="nav-link" href="productos.php"  >productos<span class="sr-only">(current)</span></a>
+                  </li>
+                    <li class="nav-item active">
                       <a class="nav-link" href="contacto.html"  >Contacta con nosotros <span class="sr-only">(current)</span></a>
                   </li>
                 </ul>
@@ -69,7 +75,7 @@
       </div>
 
         <!--Card title-->
-        <div class="sobres">
+        <div class="sobres py-4">
           
         <div class="card card-1" style="width: 18rem;">
             <div class="card-body" ">
@@ -113,7 +119,7 @@
                 <div class="card" style="width: 18rem;">
                 <div class="card-body">
                   <div class="about-icon ">
-                    <span  class="fa fa-shower" aria-hidden="true"></span>
+                    <span  class="fas fa-shower" aria-hidden="true"></span>
                   </div>
                 
                 <h6 class="card-subtitle mb-2 text-muted">Lavado de cabello</h6>
@@ -140,7 +146,7 @@
           adipiscing elit, sed do eiusmod tempor incididunt labore </p>
       </div>
       
-      <div class="row">
+      <div class="roow">
         
         <div class="card">
           <div class="card-body">
@@ -194,7 +200,6 @@
         <img src="/img/s2.jpg" alt="">
       </div>
       <div class="card blogcard" style="width: 350px;">
-        <img src="..." class="card-img-top" alt="...">
         <div class="color1">
           <h5 class="color-number">1</h5>
         </div>
@@ -206,7 +211,6 @@
       </div>
       <div class="img-yelow">
         <div class="card blogcard1" style="width: 350px;">
-          <img src="..." class="card-img-top" alt="...">
           <div class="color2">
             <h5 class="color-number">2</h5>
           </div>
@@ -218,9 +222,8 @@
         </div>
         <img " src="/img/s3.jpg" alt="">
       </div>
-      <div class="img-yelow">
+      <div class="img-yelow py-4">
         <div class="card blogcard2" style="width: 350px;">
-          <img src="..." class="card-img-top" alt="...">
           <div class="color3">
             <h5 class="color-number">3</h5>
           </div>
@@ -233,42 +236,44 @@
         <img " class="img3" src="/img/s4.jpg" alt="">
       </div>
     </div>
-    <!--footer-->
+
+      <!--footer-->
     <footer class="bg-dark text-white py-4">
       <div class="container">
         <nav class="row">
-          <!--Logo-->
+          <!-- Logo -->
           <a href="#" class="col-3 text-reset text-uppercase d-flex align-items-center">
-            <img src="/img/logo1.png" alt="Logo" class="img-logo mr-2">
-            Spa Glamour
+            <img src="./img/logo1.png" alt="Estetica Glamour" class="img-logo mr-2">
           </a>
-          <!--menu-->
-          <ul class="col-3 list-unstyled nav justify ">
-            <li class="font-weight-bold text-uppercase">resource</li>
-            <li><a href="#" class="text-reset">link 1</a></li>
-            <li><a href="#" class="text-reset">link 2</a></li>
+          <!-- menu -->
+          <ul class="col-3 list-unstyle">
+            <li class="font-weight-bold text-uppercase">Recursos</li>
+            <li><a href="#" class="text-reset">Link 1</a></li>
+            <li><a href="#" class="text-reset">Link 2</a></li>
+            <li><a href="#" class="text-reset">Link 3</a></li>
           </ul>
-          
-          <!--social networks-->
+          <!-- menu -->
+          <ul class="col-3 list-unstyle">
+            <li class="font-weight-bold text-uppercase">Enlaces Rapidos</li>
+            <li><a href="#" class="text-reset">Link 1</a></li>
+            <li><a href="#" class="text-reset">Link 2</a></li>
+            <li><a href="#" class="text-reset">Link 3</a></li>
+          </ul>
+          <!-- social networks -->
           <ul class="col-3 list-unstyled">
-            <li class="font-weight-bold text-uppercase">Redes sociales</li>
+            <li class="font-weight-bold text-uppercase">Redes Sociales</li>
             <li class="d-flex justify-content-between">
-              <!--fb-->
+              <!-- Facebook (Meta) -->
               <a href="#" class="text-reset">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fab fa-facebook"></i>
               </a>
-              <!--tw-->
-              <a href="#" class="text-reset">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <!--img-->
-              <a href="#" class="text-reset">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
+              <!-- Twitter -->
+              <a href="#" class="text-reset"><i class="fab fa-twitter"></i></a>
+              <!-- Instagram -->
+              <a href="#" class="text-reset"><i class="fab fa-instagram"></i></a>
             </li>
           </ul>
         </nav>
-
       </div>
     </footer>
   </body>

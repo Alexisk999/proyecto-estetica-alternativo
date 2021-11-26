@@ -137,7 +137,7 @@ margin-left: -15px;
 .title{
   position: absolute;
   top: 34px;
-  left: 450px;
+  left: 453px;
 }
 .section-otros-p{
   position: absolute;
@@ -147,7 +147,7 @@ margin-left: -15px;
   font-size: 14px;
 }
 
-.row{
+.roow{
   
   top: 100px;
   -webkit-box-flex: 0px;
@@ -258,10 +258,16 @@ margin-left: -15px;
 .img-fluid {
   max-width: 98%;
 height: auto;
+position: relative;
+top: 132px;
+left: 58px;
 }
 .img-fluid-1{
   max-width: 98%;
 height: auto;
+position: relative;
+left: 393px;
+top: -268px;
 }
 .nosotros-p{
   position: absolute;
@@ -271,9 +277,19 @@ height: auto;
 .precio{
   background-color: #fbfbfb;
 }
-.precioo{
-  background-color: #ff0779;
-  
+.section-precio{
+  background-color: #fafafa;
 }
+.titulo-precio{
+  padding-left: 130px;
+  padding-top: 60px;
+}
+.linia-precio{
+  padding-left: 294px;
+}
+.color-precio{
+  background-color: #ff0779;
+}
+
 
 /* contacto */
